@@ -9,6 +9,7 @@ python 2 you can format strings with %, python 3 has a format function
 
 """
 Question 2
+Takes in numbers and reverses them
 """
 num = int(input("Enter three digits"))
 
@@ -43,6 +44,9 @@ Exponent: {4}
 
 """
 Question 3
+Takes in a string and keeps track of amount of digits, letters, and words. By looping through the string and if the iterator is a 
+digit then it adds one to digit and if it's an letter it adds one to letter. I track amount of words by the amount of 
+blank spaces. With words counter initialized as one
 """
 letters = 0
 digits = 0
